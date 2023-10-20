@@ -1,0 +1,22 @@
+{
+    @context: "http://iiif.io/api/image/2/context.json",
+    @id: "https://iiif.archivelab.org/iiif/td-1877",
+    height: 1402,
+    profile: [
+    "http://iiif.io/api/image/2/level2.json"
+    ],
+    protocol: "http://iiif.io/api/image",
+    tiles: [
+    {
+    scaleFactors: [
+    1,
+    2,
+    4,
+    8,
+    16
+    ],
+    width: 256
+    }
+    ],
+    width: 1802
+    }

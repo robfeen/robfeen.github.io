@@ -1,0 +1,66 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "https://detailhandelroyaltymuseum.nl/wp-content/uploads/2023/10/td-1877manifest.json",
+	"@type": "sc:Manifest",
+	"label": "TD-1877",
+	"metadata": [
+		{
+			"label": "Label",
+			"value": "Value"
+		}
+	],
+	"description": [
+		{
+			"@value": "Topografische dients",
+			"@language": "nl"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "[Click to edit attribution]",
+	"sequences": [
+		{
+			"@id": "http://a7c01ab8-5220-4f67-aa9c-53161240ce19",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"canvases": [
+				{
+					"@id": "http://d5e7712b-8950-44cb-93e5-514cd07d0d5e",
+					"@type": "sc:Canvas",
+					"label": "Empty canvas",
+					"height": 1402,
+					"width": 1802,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://4186a1fc-56c3-4e5b-a71e-3bb83801a712",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://iiif.archivelab.org/iiif/td-1877/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://iiif.archivelab.org/iiif/td-1877",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json"
+									]
+								},
+								"height": 1402,
+								"width": 1802
+							},
+							"on": "http://d5e7712b-8950-44cb-93e5-514cd07d0d5e"
+						}
+					],
+					"related": ""
+				}
+			]
+		}
+	],
+	"structures": []
+}
