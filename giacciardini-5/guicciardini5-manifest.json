@@ -1,0 +1,65 @@
+{
+	"@context": "https://iiif.io/api/presentation/2/context.json",
+	"@id": "https://iiif.archivelab.org/iiif/guicciardini-5/manifest.json",
+	"@type": "sc:Manifest",
+	"attribution": "The Internet Archive",
+	"description": "Nieuwe gravure, 1652",
+	"label": "Guicciardini 5",
+	"logo": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcReMN4l9cgu_qb1OwflFeyfHcjp8aUfVNSJ9ynk2IfuHwW1I4mDSw",
+	"metadata": [
+		{
+			"label": "title",
+			"value": "Guicciardini 5"
+		},
+		{
+			"label": "subject",
+			"value": "Enkhuizen. kaarten. maps"
+		},
+		{
+			"label": "creator",
+			"value": "Guicciardini, Lodovico"
+		}
+	],
+	"seeAlso": "https://archive.org/metadata/guicciardini-5",
+	"sequences": [
+		{
+			"@context": "https://iiif.io/api/image/2/context.json",
+			"@id": "https://iiif.archivelab.org/iiif/guicciardini-5/canvas/default",
+			"@type": "sc:Sequence",
+			"canvases": [
+				{
+					"@context": "https://iiif.io/api/presentation/2/context.json",
+					"@id": "https://iiif.archivelab.org/iiif/guicciardini-5/canvas",
+					"@type": "sc:Canvas",
+					"description": "Map of Enkhuizen<div><br /><div><br /></div></div>",
+					"height": 1749,
+					"images": [
+						{
+							"@context": "https://iiif.io/api/image/2/context.json",
+							"@id": "https://iiif.archivelab.org/iiif/guicciardini-5/annotation",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"on": "https://iiif.archivelab.org/iiif/guicciardini-5/annotation",
+							"resource": {
+								"@id": "https://iiif.archivelab.org/iiif/guicciardini-5/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"height": 1749,
+								"service": {
+									"@context": "https://iiif.io/api/image/2/context.json",
+									"@id": "https://iiif.archivelab.org/iiif/guicciardini-5",
+									"profile": "https://iiif.io/api/image/2/profiles/level2.json"
+								},
+								"width": 2138
+							}
+						}
+					],
+					"label": "Guicciardini 5",
+					"width": 2138
+				}
+			],
+			"label": "default"
+		}
+	],
+	"viewingHint": "paged"
+}
