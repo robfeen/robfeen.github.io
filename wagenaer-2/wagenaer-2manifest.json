@@ -1,0 +1,61 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://23f2e417-05a3-441f-b37b-946264c46a6c",
+	"@type": "sc:Manifest",
+	"label": "[Click to edit label]",
+	"metadata": [],
+	"description": [
+		{
+			"@value": "Enchuyser Zee-caertboeck",
+			"@language": "nl"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "[Click to edit attribution]",
+	"sequences": [
+		{
+			"@id": "http://f2ef5f4d-d15b-423b-9405-81fc75317f9d",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"canvases": [
+				{
+					"@id": "http://acb8c8b3-945c-43a2-941d-d82fef593a2e",
+					"@type": "sc:Canvas",
+					"label": "Empty canvas",
+					"height": 1976,
+					"width": 2752,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://2c3acad8-c4ce-4ce9-a070-71b085c8e2aa",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://iiif.archivelab.org/iiif/wagenaer-2/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://iiif.archivelab.org/iiif/wagenaer-2",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json"
+									]
+								},
+								"height": 1976,
+								"width": 2752
+							},
+							"on": "http://acb8c8b3-945c-43a2-941d-d82fef593a2e"
+						}
+					],
+					"related": ""
+				}
+			]
+		}
+	],
+	"structures": []
+}
